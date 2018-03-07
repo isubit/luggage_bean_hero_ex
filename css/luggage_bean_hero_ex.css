@@ -1,0 +1,111 @@
+/* 
+ * CSS for luggage_bean_hero_ex
+ */
+
+.bean-hero-ex {
+  width: 100%;
+  min-height: 300px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.bean-hero-ex_image {
+  width: 100%;
+}
+
+.bean-hero-ex_caption {
+  display: flex;
+  width: 92%;
+  max-width: 1200px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  padding: 0 1%;
+}
+
+.bean-hero-ex_content {
+  max-width: 500px;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.bean-hero-ex_title {
+  font-weight: bold;
+}
+
+/* --- Position --- */
+.bean-hero-ex.bean-hero-ex_left .bean-hero-ex_caption {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bean-hero-ex.bean-hero-ex_right .bean-hero-ex_caption {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bean-hero-ex.bean-hero-ex_center .bean-hero-ex_caption {
+  justify-content: center;
+  align-items: center;
+}
+
+/* --- Button --- */
+.bean-hero-ex .button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  background: #cc0000;
+  border: 0;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.bean-hero-ex .button:hover {
+  background: #333;
+}
+
+/* --- Colors --- */
+
+.bean-hero-ex_light .bean-hero-ex_content { background: rgba(255, 255, 255, 0.95); }
+.bean-hero-ex_dark .bean-hero-ex_content { background: rgba(0, 0, 0, 0.75); }
+.bean-hero-ex_red .bean-hero-ex_content { background: #cc0000; }
+
+/* --- Overlay --- */
+
+.bean-hero-ex_dark,
+.bean-hero-ex_dark h2,
+.bean-hero-ex_dark h3,
+.bean-hero-ex_dark p,
+.bean-hero-ex_dark a {
+  color: white;
+}
+
+/* --- Red --- */
+
+.bean-hero-ex_red,
+.bean-hero-ex_red h2,
+.bean-hero-ex_red h3,
+.bean-hero-ex_red p,
+.bean-hero-ex_red a {
+  color: white;
+}
+
+.bean-hero-ex_red .button {
+  color: #cc0000;
+  background: white;
+}
+
+.bean-hero-ex_red .button:hover {
+  color: #fff;
+}
+
+/* Kill external link icon */
+#section-content .bean-hero-ex a.external:after { display: none; }
