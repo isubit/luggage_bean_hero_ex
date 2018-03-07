@@ -8,7 +8,7 @@ A bean for banners with expanded caption area
 # Installation
 - Download the [bean module]
 - Enable luggage_bean_hero_ex with drush or through the Drupal UI
-- If some fields don't appear after installation, try clearing cache or resetting the feature with `drush fr luggage_bean_card`
+- If some fields don't appear after installation, try clearing cache or resetting the feature with `drush fr luggage_bean_hero_ex`
 
 ## License
 
