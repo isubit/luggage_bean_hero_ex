@@ -21,4 +21,5 @@ features[field_instance][] = bean-hero_ex-field_hero_ex_color
 features[field_instance][] = bean-hero_ex-field_hero_ex_content
 features[field_instance][] = bean-hero_ex-field_hero_ex_image
 features[field_instance][] = bean-hero_ex-field_hero_ex_position
+features[user_permission][] = edit any hero_ex bean
 features[user_permission][] = view any hero_ex bean
