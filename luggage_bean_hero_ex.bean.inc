@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * luggage_bean_announcement.bean.inc
+ * luggage_bean_hero_ex.bean.inc
  */
 
 /**
