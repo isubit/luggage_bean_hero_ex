@@ -1,5 +1,13 @@
 # luggage_bean_hero_ex
-A bean for banners with expanded caption area
+A bean for banners with expanded caption area.  
+
+This bean differs from the luggage_bean_hero in the following ways:
+- hero_ex prioritizes content over the image, so the banner's height will adjust to fit all content
+- The caption area is a full text area, so any amount or type of WYSIWYG content can be entered.
+- On narrow screen widths, the caption will stay on top of the image
+- The image is implemented as a CSS background-image set to background-size: cover. This allows the image to be very flexible, but means that the edges may be cut off on different screen widths depending on the amount of content and viewport width.
+- The options for the caption color are different
+- The options for caption position are different
 
 # Requirements
 - Requires [suitcase_interim version 1.1.4]
