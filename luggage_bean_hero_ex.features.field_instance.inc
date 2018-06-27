@@ -64,7 +64,7 @@ function luggage_bean_hero_ex_field_default_field_instances() {
     'field_name' => 'field_hero_ex_content',
     'label' => 'Caption Content',
     'placeholder' => '',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
