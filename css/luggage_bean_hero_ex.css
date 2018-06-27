@@ -4,7 +4,7 @@
 
 .bean-hero-ex {
   width: 100%;
-  min-height: 200px;
+  min-height: 350px;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -35,7 +35,16 @@
   font-weight: bold;
 }
 
+.bean-hero-ex_title:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 400px) {
+
+  .bean-hero-ex {
+    min-height: 200px;
+  }
+
   .bean-hero-ex_title {
     font-size: 1.25rem;
   }
